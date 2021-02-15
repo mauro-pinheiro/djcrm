@@ -18,6 +18,7 @@ services:
     volumes:
       - ..:/workspace:cached
       - ~/.gitconfig:/etc/gitconfig
+      - ~/.ssh:/home/vscode/.ssh
 
     # Overrides default command so things don't shut down after the process ends.
     command: sleep infinity
