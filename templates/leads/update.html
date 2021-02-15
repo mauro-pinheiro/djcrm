@@ -20,11 +20,11 @@
 <body>
     <a href="{% url 'leads:lead-list' %}">Go Back To Leads</a>
     <hr>
-    <h1>Lead {{lead}}</h1>
-    <p>This person has {{lead.age}}</p>
-    <p>Agent responsible: {{lead.agent}}</p>
-    <hr>
-    <a href="{% url 'leads:lead-update' lead.pk %}">Update</a>
-    <a href="{% url 'leads:lead-delete' lead.pk %}">Delete</a>
+    <h1>Update {{lead}}</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{form.as_p}}
+        <button type='submit'>Submit</button>
+    </form>
 </body>
 </html>
