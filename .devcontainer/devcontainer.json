@@ -47,6 +47,7 @@
 		"mtxr.sqltools-driver-pg",
 		"bigonesystems.django",
 		"bibhasdn.django-html",
+		"ecmel.vscode-html-css",
 	],
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [5000, 5432],
