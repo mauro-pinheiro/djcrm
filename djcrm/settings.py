@@ -25,7 +25,7 @@ SECRET_KEY = '6+1_gc#$atb28e5#45rjf@%sz(@2aysv=n5%fzw!2-#zj7!+@t'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['djcrm.mcitsol.dev']
 
 
 # Application definition
